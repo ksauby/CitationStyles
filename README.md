@@ -2,7 +2,7 @@
 
 ## Citation Style Files
 
-Sources of style files includ:
+Sources of style files include:
 - https://github.com/citation-style-language/styles
  - Download .csl files as raw (as explained here: - http://stackoverflow.com/questions/19949540/error-running-filter-pandoc-citeproc-when-specifying-csl-style?rq=1)
 - https://www.zotero.org/styles
@@ -19,7 +19,7 @@ To include journal abbreviations in a .bib file, create strings containing the j
 
         @article{louthan2013climatic,
         	Author = {Louthan, Allison M and Doak, Daniel F and Goheen, Jacob R and Palmer, Todd M and Pringle, Robert M},
-        	Journal = {JEcol},
+        	Journal = JEcol,
         	Number = {4},
         	Pages = {1074--1083},
         	Publisher = {Wiley Online Library},
