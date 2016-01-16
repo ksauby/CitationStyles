@@ -9,9 +9,14 @@ Sources of style files includ:
 
 ## Journal Abbreviations
 
+Sources of journal abbreviations:
+- https://github.com/citation-style-language/abbreviations/tree/master/ncbi
+- https://github.com/dhruvbansal/bibtex_abbreviations
+
 To include journal abbreviations in a .bib file, create strings containing the journal abbreviations following the instructions here: http://latex-community.org/forum/viewtopic.php?f=5&t=690
+
 1. In your .bib file, replace the journal title with a string
-2. 
+
         @article{louthan2013climatic,
         	Author = {Louthan, Allison M and Doak, Daniel F and Goheen, Jacob R and Palmer, Todd M and Pringle, Robert M},
         	Journal = {JEcol},
@@ -30,9 +35,7 @@ To include journal abbreviations in a .bib file, create strings containing the j
 
         @string{JEcol="Journal of Ecology"}
 
-: 
-- Note: To get this to work with R markdown, I pasted the strings to the beginning of my .bib file rather than include as a second file.
 
-https://github.com/citation-style-language/abbreviations/tree/master/ncbi
+4. Note: To get this to work with R markdown, I pasted the strings to the beginning of my .bib file rather than include as a second file.
 
-https://github.com/dhruvbansal/bibtex_abbreviations
+
